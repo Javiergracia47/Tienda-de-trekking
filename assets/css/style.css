@@ -1,0 +1,68 @@
+/*seccion de mi footer*/
+.imagen-logo{
+    width: 150px;
+}
+
+.imagen-footer{
+    width: 110px;
+}
+
+/*Seccion sobre nosotros*/
+.mi-caja{
+    padding-top: 47px;
+}
+
+.sobre-nosotros{
+    height: 470px;
+    text-align: center;
+    background-image: url(../img/357022-svetik_3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section-texto{
+    width:400px;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity:1;
+}
+
+.section-h2{
+    color: orange;
+    font-weight: 800;
+}
+
+/*CARTAS*/
+
+/*Este es el tamaño de la cartas en general*/
+.card{
+    width: 150px;
+    margin-top: 20px;
+}
+
+/*Estoy dandole un tamaño mas grande a este texto*/
+.precio-nuevo{
+    font-size: 1.1rem;
+}
+
+/*Aqui estoy subrayando el precio antiguo*/
+.precio-antiguo{
+    text-decoration: line-through;
+}
+
+.cartas{
+         
+        margin-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    
+}
+
+.box h2{
+    text-align: center;
+    margin-top: 54px;
+    font-size: 45px;
+    color: orange;
+}
